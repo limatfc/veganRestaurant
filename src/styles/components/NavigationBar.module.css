@@ -1,0 +1,16 @@
+.navigationBarWrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #98a07f;
+}
+
+.navigationBarWrapper button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.navigationBarWrapper img {
+  height: 70px;
+}
