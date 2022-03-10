@@ -2,6 +2,7 @@
   height: 80px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   background-color: #98a07f;
 }
 

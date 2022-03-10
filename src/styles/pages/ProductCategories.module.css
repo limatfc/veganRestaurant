@@ -1,0 +1,48 @@
+.categoryImageWrapper {
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+
+.categoryImage {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+.title {
+  color: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dishesWrapper {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  margin: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.dishesWrapper h3 {
+  padding-top: 10%;
+  padding-left: 8px;
+}
+.dishesWrapper p {
+  padding-left: 8px;
+  padding-right: 16px;
+  text-align: justify;
+}
+.dishImage {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 2;
+  grid-row: 1 / span 2;
+}
+
+.categoryDescription {
+  padding: 14px;
+  text-align: justify;
+}
