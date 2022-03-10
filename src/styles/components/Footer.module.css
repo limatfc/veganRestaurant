@@ -1,25 +1,21 @@
 .footerWrapper {
   background-color: #98a07f;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerWrapper img {
   width: 40px;
-  display: inline-block;
-}
-
-.facebookIcon {
-  padding-left: 38%;
-  padding-right: 24px;
+  padding: 24px;
 }
 
 .footerWrapper span {
   font-size: 18px;
   letter-spacing: 3.2;
   color: #f1f1f1;
-  margin: 0 auto;
-  display: block;
   text-align: center;
-  padding-top: 24px;
+  padding-bottom: 24px;
 }

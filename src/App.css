@@ -31,11 +31,11 @@ button,
 p {
   font-size: 18px;
   letter-spacing: 3.2;
-  color: #f1f1f1;
 }
 
 button {
   font-weight: bold;
+  color: #f1f1f1;
 }
 
 h1,
