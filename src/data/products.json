@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "category": "Main",
+    "categoryDescription": "All of our dishes are made with specially picked fresh products. With them, our collaborators are able to assemble incredible evegan meals, full of flavor",
+    "categoryImageURL": "homepage-category-dishes.png",
+    "imageDescription": "a salad plate with tomato, lettuce, avocado, yellow pepper, carrots, and sause.",
+    "dishes": [
+      {
+        "id": 4,
+        "name": "Lentil Bolognese",
+        "dishDescription": "Rich and robust, this plant-based Lentil Bolognese is hearty, “meaty” and full of depth of flavor.",
+        "dishImageURL": "lentil-bolognese.png",
+        "ingredients": [
+          "lentils",
+          "onions",
+          "carrots",
+          "fresh oregano",
+          "red wine",
+          "fresh tomatoes",
+          "balsamic vnegar"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 5,
+        "name": "Vegetable Biryani",
+        "dishDescription": "An aromatic Indian rice dish with vegetables and chickpeas - infused with Indian spices.",
+        "dishImageURL": "chickpea-biryani.png",
+        "ingredients": [
+          "onions",
+          "rice",
+          "cashews",
+          "raisins",
+          "cilantro",
+          "chickpeas"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 6,
+        "name": "Whole Roasted Cauliflower",
+        "dishDescription": "A whole cauliflower roasted in the oven until golden and tender.",
+        "dishImageURL": "whole-roasted-cauliflower.png",
+        "ingredients": ["cauliflower", "olive oil", "zaatar", "pepper", "salt"],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 7,
+        "name": "Frankies (Bombay Burritos)",
+        "dishDescription": "India's flavorful street food -also called a Bombay Burrito, made healthy!",
+        "dishImageURL": "indian-burrito.png",
+        "ingredients": [
+          "curry",
+          "mashed potatoes",
+          "chickpeas",
+          "cauliflower",
+          "spinach",
+          "pickeld onions"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 8,
+        "name": "Vegan Shepherds Pie",
+        "dishDescription": "A cozy fall recipe for  Vegan Shepherds Pie with mushrooms and root vegetables",
+        "dishImageURL": "vegan-shepherds-pie.png",
+        "ingredients": [
+          "mushrooms",
+          "potatoes",
+          "pepper",
+          "vegan butter",
+          "vegan sour cream",
+          "parsnips"
+        ],
+        "nutritionalFacts": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Desserts",
+    "categoryDescription": "Our delicious desserts are prepared taking into consideration  the moistness and fat that traditional dairy ingredients offer. An the best part - we only use vegan-friendly ingredients.",
+    "categoryImageURL": "homepage-category-desserts.png",
+    "imageDescription": "five glasses containing redberry drinks, with a red flower in the back",
+    "dishes": [
+      {
+        "id": 9,
+        "name": "Peanut Butter Chocolate Chip Cookie Bar",
+        "dishDescription": "A fudgy cacao topping covers a decadent peanut butter chocolate chip layer.",
+        "dishImageURL": "chocolate-chips.jpeg",
+        "ingredients": [
+          "maple syrup",
+          "almond flour",
+          "sea salt",
+          "vanilla",
+          "maca powder",
+          "coconut oil"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 10,
+        "name": "Vegan Ice Cream",
+        "dishDescription": "Say hello to the BEST vegan ice cream, super creamy, smooth, rich, delicious!",
+        "dishImageURL": "ice-cream.jpeg",
+        "ingredients": ["almond milk", "coconut milk", "tahini", "maple syrup"],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 11,
+        "name": "Chocolate Pudding Pops",
+        "dishDescription": "Creamy from avocado & almond butter, these healthy treats are perfect on hot summer days.",
+        "dishImageURL": "pudding-pops.jpeg",
+        "ingredients": [
+          "almond butter",
+          "vanilla",
+          "dark chocolate chips",
+          "maple syrup",
+          "cacao powder"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 12,
+        "name": "Raspberry Vegan Cheesecake",
+        "dishDescription": "A tart raspberry layer, a creamy 'cheesecake' layer, and a gluten-free walnut crust make this easy vegan cheesecake recipe tangy, rich & delicious.",
+        "dishImageURL": "vegan-cheesecake.jpeg",
+        "ingredients": [
+          "walnuts",
+          "coconut oil",
+          "lemon juice",
+          "coconut milk",
+          "maple syrup",
+          "vanilla extract"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 13,
+        "name": "Pumpkin Pudding",
+        "dishDescription": "It's super rich and creamy, and maple, vanilla, and cinnamon fill it with warm autumn flavor.",
+        "dishImageURL": "pumpkin-pie.jpeg",
+        "ingredients": [
+          "Maple syrup",
+          "Cinnamon",
+          "Vanilla extract",
+          "sea salt",
+          "Pumpkin puree"
+        ],
+        "nutritionalFacts": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Drinks",
+    "categoryDescription": "Our cocktails use fun, natural ingredients to add color and flavor to your day.",
+    "categoryImageURL": "homepage-category-drinks.png",
+    "imageDescription": "pancakes with syrip and blueberries on top",
+    "dishes": [
+      {
+        "id": 14,
+        "name": "Strawberry Lemonade",
+        "dishDescription": "In the scorching Summer heat, these refreshing and fruity lemonades will feel like taking a dip in the cool ocean.",
+        "dishImageURL": "strawberry-lemonade.jpeg",
+        "ingredients": [
+          "water",
+          "lemon juice",
+          "strawberry puree",
+          "sugar",
+          "mint leaves",
+          "ice cubes"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 15,
+        "name": "Ginger Beer Mojito",
+        "dishDescription": "Adding ginger beer to cocktails it is seriously the best mixer!",
+        "dishImageURL": "ginger-beer-mojitos.png",
+        "ingredients": ["ginger beer", "lime juice", "mint leaves", "rum"],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 16,
+        "name": "Frozen Blackberry Coolers",
+        "dishDescription": "They're sweet but have a little touch of tart too! ",
+        "dishImageURL": "blackberry-coolers.png",
+        "ingredients": [
+          "blackberries",
+          "ice cubes",
+          "coconut milk",
+          "lime juice",
+          "syrup",
+          "rum"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 17,
+        "name": "Cucumber Vodka Soda",
+        "dishDescription": "It is so super refreshing on a hot summer day because it is light and cold!",
+        "dishImageURL": "cucumber-soda.png",
+        "ingredients": [
+          "cucumber juice",
+          "lime juice",
+          "vodka",
+          "syrup",
+          "seltzer water"
+        ],
+        "nutritionalFacts": ""
+      },
+      {
+        "id": 18,
+        "name": "Galaxi Mocktail",
+        "dishDescription": "It's a refreshing slushie drink that tastes as good as it looks!",
+        "dishImageURL": "galaxy-mocktail.jpeg",
+        "ingredients": [
+          "Monin Blue Curacao Syrup",
+          "Grenadine",
+          "Lemonade",
+          "ice cubes",
+          "Orange & Sweet Lime simple syrup"
+        ],
+        "nutritionalFacts": ""
+      }
+    ]
+  }
+]
