@@ -29,9 +29,10 @@ export default function ProductDetails() {
       <h2>Ingredients</h2>
       <ul>{ingredientItem}</ul>
       <img
-        src={nutritionalFacts}
+        src={require(`../assets/images/products/nutritional-facts/${nutritionalFacts}`)}
         alt={`A table containing the nutritional values of the ${name} dish.`}
       />
+      <button>Go back</button>
     </div>
   );
 }
