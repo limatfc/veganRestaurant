@@ -1,17 +1,15 @@
 import { useParams } from "react-router-dom";
-import productsData from "../data/products.json";
+import { categoryFinder } from "../scripts/category-finder";
 import Error from "../components/Error";
+import ProductCategoryDishes from "../components/ProductCategoryDishes";
 import classes from "../styles/pages/ProductCategories.module.css";
 
 export default function ProductCategories() {
   const { productCategory } = useParams();
-  const productCategoryRouting = productCategory.toLowerCase();
+  const productCategoryRoute = productCategory.toLowerCase();
 
-  const findCategory = productsData.find(
-    (categoryName) =>
-      categoryName.category.toLowerCase() === productCategoryRouting
-  );
-  if (!findCategory) return <Error />;
+  const foundCategory = categoryFinder(productCategoryRoute);
+  if (!foundCategory) return <Error />;
 
   const {
     category,
@@ -19,19 +17,7 @@ export default function ProductCategories() {
     categoryImageURL,
     dishes,
     imageDescription,
-  } = findCategory;
-
-  const allCategoryDishes = dishes.map((item) => (
-    <div className={classes.dishesWrapper}>
-      <h3>{item.name}</h3>
-      <p>{item.shortDishDescription}</p>
-      <img
-        className={classes.dishImage}
-        src={require(`../assets/images/products/${productCategoryRouting}/${item.dishImageURL}`)}
-        alt={item.name}
-      />
-    </div>
-  ));
+  } = foundCategory;
 
   return (
     <div>
@@ -44,7 +30,12 @@ export default function ProductCategories() {
         <h1 className={classes.title}>{category}</h1>
       </div>
       <p className={classes.categoryDescription}>{categoryDescription}</p>
-      <section>{allCategoryDishes}</section>
+      <section>
+        <ProductCategoryDishes
+          dishes={dishes}
+          productCategoryRoute={productCategoryRoute}
+        />
+      </section>
     </div>
   );
 }
