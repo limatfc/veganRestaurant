@@ -1,0 +1,31 @@
+.contactWrapper hr {
+  max-width: 80%;
+  color: #3d4033;
+}
+
+.ownerImage {
+  width: 100%;
+  height: auto;
+}
+
+.contactWrapper ul {
+  padding-bottom: 24px;
+  margin: 0;
+  padding-top: 16px;
+  list-style-type: none;
+}
+.contactWrapper li {
+  font-size: 18px;
+  letter-spacing: 3.2;
+  color: #a4693d;
+  line-height: 25px;
+}
+
+.contactWrapper h2 {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.map {
+  width: 100%;
+}
