@@ -9,8 +9,9 @@
       {
         "id": 4,
         "name": "Lentil Bolognese",
-        "dishDescription": "Rich and robust, this plant-based Lentil Bolognese is hearty, “meaty” and full of depth of flavor.",
+        "shortDishDescription": "Rich and robust, this plant-based Lentil Bolognese is hearty, “meaty” and full of depth of flavor.",
         "dishImageURL": "lentil-bolognese.png",
+        "longDishDescription": "A lot of the magic in a vegan kitchen happens in the pantry, and this Lentil Bolognese is a prime example. It's a comforting, tasty meal made exclusively with shelf-stable ingredients. This recipe deliveres the same flavor and texture profile as traditional bolognese. It's rich, thick, and sticks to your ribs.",
         "ingredients": [
           "lentils",
           "onions",
@@ -25,8 +26,9 @@
       {
         "id": 5,
         "name": "Vegetable Biryani",
-        "dishDescription": "An aromatic Indian rice dish with vegetables and chickpeas - infused with Indian spices.",
+        "shortDishDescription": "An aromatic Indian rice dish with vegetables and chickpeas - infused with Indian spices.",
         "dishImageURL": "chickpea-biryani.png",
+        "longDishDescription": "This Vegetable Biryani hits all the right spots with its wonderful aroma and exotic flavors! Loaded with veggies, crunchy cashews, warm spices like saffron, herbs like cilantro and mint, this biryani is a delight to the taste buds in every bite!",
         "ingredients": [
           "onions",
           "rice",
@@ -40,16 +42,18 @@
       {
         "id": 6,
         "name": "Whole Roasted Cauliflower",
-        "dishDescription": "A whole cauliflower roasted in the oven until golden and tender.",
+        "shortDishDescription": "A whole cauliflower roasted in the oven until golden and tender.",
         "dishImageURL": "whole-roasted-cauliflower.png",
+        "longDishDescription": "This whole roasted cauliflower recipe is a show-stopper, whether you're a meat eater and having it as a side dish, or it's the main course of a vegetarian meal. This cauliflower with parmesan is flavorful, cooked perfectly, and tastes delicious! Whole baked cauliflower is drizzled with a garlic parmesan sauce, perfectly cooked, and sliced into circles or wedges for serving.",
         "ingredients": ["cauliflower", "olive oil", "zaatar", "pepper", "salt"],
         "nutritionalFacts": ""
       },
       {
         "id": 7,
         "name": "Frankies (Bombay Burritos)",
-        "dishDescription": "India's flavorful street food -also called a Bombay Burrito, made healthy!",
+        "shortDishDescription": "India's flavorful street food -also called a Bombay Burrito, made healthy!",
         "dishImageURL": "indian-burrito.png",
+        "longDishDescription": "This Indian street food filled with amazing flavors. It is a roti or tortilla wrap filled with mashed potatoes, roasted cauliflower, roasted chickpeas, pickled onions, fresh spinach and a mint or coriander chutney. ",
         "ingredients": [
           "curry",
           "mashed potatoes",
@@ -63,8 +67,9 @@
       {
         "id": 8,
         "name": "Vegan Shepherds Pie",
-        "dishDescription": "A cozy fall recipe for  Vegan Shepherds Pie with mushrooms and root vegetables",
+        "shortDishDescription": "A cozy fall recipe for  Vegan Shepherds Pie with mushrooms and root vegetables",
         "dishImageURL": "vegan-shepherds-pie.png",
+        "longDishDescription": "There is something very wintry, very comforting about Shepherd's Pie. Hearty vegetables in a brothy sauce topped with fluffy mashed potatoes, all baked to bubbly perfectly. It's kind of what Thanksgiving dreams are made of, at least in my world.",
         "ingredients": [
           "mushrooms",
           "potatoes",
@@ -87,8 +92,9 @@
       {
         "id": 9,
         "name": "Peanut Butter Chocolate Chip Cookie Bar",
-        "dishDescription": "A fudgy cacao topping covers a decadent peanut butter chocolate chip layer.",
+        "shortDishDescription": "A fudgy cacao topping covers a decadent peanut butter chocolate chip layer.",
         "dishImageURL": "chocolate-chips.jpeg",
+        "longDishDescription": "These peanut butter chocolate bars are loaded with chocolate chips and creamy peanut butter. This is a one-bowl dessert you're bound to love! These peanut butter chocolate chip bars are super soft, slightly chewy, buttery, and peanut buttery.",
         "ingredients": [
           "maple syrup",
           "almond flour",
@@ -102,16 +108,18 @@
       {
         "id": 10,
         "name": "Vegan Ice Cream",
-        "dishDescription": "Say hello to the BEST vegan ice cream, super creamy, smooth, rich, delicious!",
+        "shortDishDescription": "Say hello to the BEST vegan ice cream, super creamy, smooth, rich, delicious!",
         "dishImageURL": "ice-cream.jpeg",
         "ingredients": ["almond milk", "coconut milk", "tahini", "maple syrup"],
+        "longDishDescription": "It has the perfect ice cream texture. You will definitely not miss the dairy in this delicious dessert! It's everything you want an ice cream to be, perfectly textured and perfectly sweet, ultra creamy and smooth and melts in your mouth.",
         "nutritionalFacts": ""
       },
       {
         "id": 11,
         "name": "Chocolate Pudding Pops",
-        "dishDescription": "Creamy from avocado & almond butter, these healthy treats are perfect on hot summer days.",
+        "shortDishDescription": "Creamy from avocado & almond butter, these healthy treats are perfect on hot summer days.",
         "dishImageURL": "pudding-pops.jpeg",
+        "longDishDescription": "Hey, when was the last time you had a pudding pop? Maybe it's been years. Maybe you've never tried one. Well, you should fix that today, because these homemade pudding pops are the best thing!.",
         "ingredients": [
           "almond butter",
           "vanilla",
@@ -124,8 +132,9 @@
       {
         "id": 12,
         "name": "Raspberry Vegan Cheesecake",
-        "dishDescription": "A tart raspberry layer, a creamy 'cheesecake' layer, and a gluten-free walnut crust make this easy vegan cheesecake recipe tangy, rich & delicious.",
+        "shortDishDescription": "A tart raspberry layer, a creamy 'cheesecake' layer, and a gluten-free walnut crust make this easy vegan cheesecake recipe tangy, rich & delicious.",
         "dishImageURL": "vegan-cheesecake.jpeg",
+        "longDishDescription": "This cheesecake is completely refined sugar free, paleo, raw and absolutely delicious! The fresh raspberry topping really takes it over the edge. It features a cashew filling with raspberries inside and out, nestled on a naturally sweetened nut based crust and topped with more raspberries and cacao! That creamy texture, too… yes please! ",
         "ingredients": [
           "walnuts",
           "coconut oil",
@@ -139,8 +148,9 @@
       {
         "id": 13,
         "name": "Pumpkin Pudding",
-        "dishDescription": "It's super rich and creamy, and maple, vanilla, and cinnamon fill it with warm autumn flavor.",
+        "shortDishDescription": "It's super rich and creamy, and maple, vanilla, and cinnamon fill it with warm autumn flavor.",
         "dishImageURL": "pumpkin-pie.jpeg",
+        "longDishDescription": "It will take you right back to the good days, and it will satisfy every pumpkin spice latte craving you have. Similar to custard, it tastes like pumpkin pie but lighter, cooler, and creamier, making it the ideal dessert for after a heavy meal ",
         "ingredients": [
           "Maple syrup",
           "Cinnamon",
@@ -162,8 +172,9 @@
       {
         "id": 14,
         "name": "Strawberry Lemonade",
-        "dishDescription": "In the scorching Summer heat, these refreshing and fruity lemonades will feel like taking a dip in the cool ocean.",
+        "shortDishDescription": "In the scorching Summer heat, these refreshing and fruity lemonades will feel like taking a dip in the cool ocean.",
         "dishImageURL": "strawberry-lemonade.jpeg",
+        "longDishDescription": "this homemade strawberry lemonade is going to knock your socks off! It's so fresh and delicious! This is a tart, tasty lemonade with a sweet kick, perfect for the summer months. It can also be turned into a refreshing cocktail too. If that's the case, we suggest adding vodka, tequila, and even lemon flavored rum.",
         "ingredients": [
           "water",
           "lemon juice",
@@ -177,16 +188,18 @@
       {
         "id": 15,
         "name": "Ginger Beer Mojito",
-        "dishDescription": "Adding ginger beer to cocktails it is seriously the best mixer!",
+        "shortDishDescription": "Adding ginger beer to cocktails it is seriously the best mixer!",
         "dishImageURL": "ginger-beer-mojitos.png",
+        "longDishDescription": "It's a regular mojito but using ginger beer instead of club soda, and this version even better than the original. This Moscow Mule Mojito combines the spicy ginger flavor of the Moscow Mule with the refreshing flavor of the fresh mint and lime.",
         "ingredients": ["ginger beer", "lime juice", "mint leaves", "rum"],
         "nutritionalFacts": ""
       },
       {
         "id": 16,
         "name": "Frozen Blackberry Coolers",
-        "dishDescription": "They're sweet but have a little touch of tart too! ",
+        "shortDishDescription": "They're sweet but have a little touch of tart too! ",
         "dishImageURL": "blackberry-coolers.png",
+        "longDishDescription": "It is filling and packed with vitamins and nutrients that provide so many health benefits. From improving digestion to lowering cholesterol & blood pressure, this drink is the whole package.",
         "ingredients": [
           "blackberries",
           "ice cubes",
@@ -200,8 +213,9 @@
       {
         "id": 17,
         "name": "Cucumber Vodka Soda",
-        "dishDescription": "It is so super refreshing on a hot summer day because it is light and cold!",
+        "shortDishDescription": "It is so super refreshing on a hot summer day because it is light and cold!",
         "dishImageURL": "cucumber-soda.png",
+        "longDishDescription": "Elevate this traditional tipple with the five-ingredient Cucumber Vodka Soda! Made with fresh cucumber juice, a squeeze of lime juice, honey, club soda, and your choice of vodka! It's refreshing and so delicious to sip on this season.",
         "ingredients": [
           "cucumber juice",
           "lime juice",
@@ -214,8 +228,9 @@
       {
         "id": 18,
         "name": "Galaxi Mocktail",
-        "dishDescription": "It's a refreshing slushie drink that tastes as good as it looks!",
+        "shortDishDescription": "It's a refreshing slushie drink that tastes as good as it looks!",
         "dishImageURL": "galaxy-mocktail.jpeg",
+        "longDishDescription": "The Galaxy Mocktail is a space themed mocktail perfect for adults and kids alike. Enjoy gradient colour changing, healthy, galaxy mocktail... Chillax with your loved ones!",
         "ingredients": [
           "Monin Blue Curacao Syrup",
           "Grenadine",

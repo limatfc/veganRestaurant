@@ -7,7 +7,7 @@ export default function HomePage() {
   const navigate = useNavigate();
 
   function onClickHandler(item) {
-    navigate(`/${item.category}`);
+    navigate(`/${item.category.toLowerCase()}`);
   }
 
   const productCategoriesInfo = productsData.map((item) => (
