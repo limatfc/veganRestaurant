@@ -6,12 +6,18 @@
   background-color: #98a07f;
 }
 
-.navigationBarWrapper button {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-}
-
 .navigationBarWrapper img {
   height: 70px;
+}
+
+.link {
+  font-size: 18px;
+  letter-spacing: 3.2;
+  font-weight: bold;
+  color: #f1f1f1;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }

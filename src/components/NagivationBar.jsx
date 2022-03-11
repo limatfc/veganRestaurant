@@ -5,11 +5,11 @@ import classes from "../styles/components/NavigationBar.module.css";
 export default function NavigatioBar() {
   return (
     <nav className={classes.navigationBarWrapper}>
-      <Link to="/main">
-        <button>Main</button>
+      <Link className={classes.link} to="/main">
+        Main
       </Link>
-      <Link to="/desserts">
-        <button>Desserts</button>
+      <Link className={classes.link} to="/desserts">
+        Desserts
       </Link>
       <Link to="/">
         <img
@@ -17,11 +17,11 @@ export default function NavigatioBar() {
           alt="a white outline of a bowl with a leaf on top, on orange background."
         />
       </Link>
-      <Link to="/drinks">
-        <button>Drinks</button>
+      <Link className={classes.link} to="/drinks">
+        Drinks
       </Link>
-      <Link to="/contact">
-        <button>Contact</button>
+      <Link className={classes.link} to="/contact">
+        Contact
       </Link>
     </nav>
   );
