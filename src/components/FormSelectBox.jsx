@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useFormValidation } from "../hooks/use-form-validation";
+import classes from "../styles/components/FormSelectBox.module.css";
 
 export default function FormSelectBox({ inputedDate, onChangeHandler }) {
   const {
@@ -26,13 +27,14 @@ export default function FormSelectBox({ inputedDate, onChangeHandler }) {
     availableTime = true;
   }
   return (
-    <label>
+    <label className={classes.selectBoxWrapper}>
       Choose a time
       <select
         onChange={valueChangeHandler}
         onBlur={inputBlurHandler}
         name="availableTimes"
         value={value}
+        className={hasError ? classes.errorInput : null}
       >
         <option value="">--Please choose an option--</option>
         <option value="17" disabled={!availableTime}>
@@ -47,7 +49,7 @@ export default function FormSelectBox({ inputedDate, onChangeHandler }) {
           23:00
         </option>
       </select>
-      {hasError && <p>Sorry, a time must be selected.</p>}
+      <p>{hasError && "A time must be selected."}</p>
     </label>
   );
 }

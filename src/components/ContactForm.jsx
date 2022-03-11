@@ -2,6 +2,7 @@ import FormCalendar from "./FormCalendar";
 import FormInput from "./FormInput";
 import FormSelectBox from "./FormSelectBox";
 import { useContactFormData } from "../hooks/use-contact-form-data";
+import classes from "../styles/components/ContactForm.module.css";
 
 export default function ContactForm() {
   const {
@@ -27,7 +28,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={onSubmitHandler}>
+    <form className={classes.formWrapper} onSubmit={onSubmitHandler}>
       <FormInput
         label="First and last names"
         validateValue={(name) => name.trim() !== ""}
@@ -43,7 +44,7 @@ export default function ContactForm() {
         onChangeHandler={onSelectBoxChangeHandler}
         inputedDate={formData.inputedDate}
       />
-      <button type="submit" disabled={!formIsValid}>
+      <button className={classes.submit} type="submit" disabled={!formIsValid}>
         Submit
       </button>
     </form>

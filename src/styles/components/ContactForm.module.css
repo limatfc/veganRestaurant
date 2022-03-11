@@ -1,8 +1,16 @@
-.calendar {
-  color: #a4693d;
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.calendar button,
-.calendar span {
-  color: #a4693d;
+.submit {
+  width: 290px;
+  height: 60px;
+  background-color: #a4693d;
+  display: block;
+  margin: 8px auto;
+  margin-bottom: 24px;
+  border: none;
 }

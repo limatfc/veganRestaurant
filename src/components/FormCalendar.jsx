@@ -1,5 +1,5 @@
 import Calendar from "react-calendar";
-import classes from "../styles/components/ContactForm.module.css";
+import classes from "../styles/components/FormCalendar.module.css";
 import "react-calendar/dist/Calendar.css";
 
 export default function FormCalendar({ onChangeHandler }) {
@@ -10,7 +10,7 @@ export default function FormCalendar({ onChangeHandler }) {
   }
   return (
     <>
-      <label>
+      <label className={classes.calendarWrapper}>
         Choose a date
         <Calendar
           className={classes.calendar}

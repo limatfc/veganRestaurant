@@ -18,7 +18,7 @@ export default function Contact() {
         <li>Sunday 17:00 - 22:00</li>
       </ul>
       <hr />
-      <h2>Book a table</h2>
+      <h2 className={classes.bookATableTitle}>Book a table</h2>
       <ContactForm />
       <hr />
       <h2>Address</h2>
