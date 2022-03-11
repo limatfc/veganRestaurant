@@ -13,9 +13,9 @@ export default function Contact() {
       />
       <h2>Opening Hours</h2>
       <ul>
-        <li>Monday-Thursday 11:00 - 22:00</li>
-        <li>Friday- Saturdays 11:00 - 23:00</li>
-        <li>Sunday 11:00 - 22:00</li>
+        <li>Monday-Thursday 17:00 - 22:00</li>
+        <li>Friday- Saturdays 16:00 - 23:00</li>
+        <li>Sunday 17:00 - 22:00</li>
       </ul>
       <hr />
       <h2>Book a table</h2>
