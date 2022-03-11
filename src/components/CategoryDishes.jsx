@@ -1,11 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import classes from "../styles/components/ProductCategoryDishes.module.css";
 
-export default function ProductCategoryDishes({
-  dishes,
-  productCategoryRoute,
-}) {
+export default function CategoryDishes({ dishes, productCategoryRoute }) {
   const navigate = useNavigate();
+
   const allCategoryDishes = dishes.map((item) => (
     <div
       onClick={() => navigate(`/${productCategoryRoute}/${item.name}`)}

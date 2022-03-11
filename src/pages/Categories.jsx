@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 import { categoryFinder } from "../scripts/category-finder";
 import Error from "../components/Error";
-import ProductCategoryDishes from "../components/ProductCategoryDishes";
+import CategoryDishes from "../components/CategoryDishes";
 import classes from "../styles/pages/ProductCategories.module.css";
 
-export default function ProductCategories() {
-  const { productCategory } = useParams();
-  const productCategoryRoute = productCategory.toLowerCase();
+export default function Categories() {
+  const { categoryName } = useParams();
+  const productCategoryRoute = categoryName.toLowerCase();
 
   const foundCategory = categoryFinder(productCategoryRoute);
   if (!foundCategory) return <Error />;
@@ -31,7 +31,7 @@ export default function ProductCategories() {
       </div>
       <p className={classes.categoryDescription}>{categoryDescription}</p>
       <section>
-        <ProductCategoryDishes
+        <CategoryDishes
           dishes={dishes}
           productCategoryRoute={productCategoryRoute}
         />

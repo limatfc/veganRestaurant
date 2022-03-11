@@ -62,7 +62,7 @@ export default function ContactForm() {
         onChangeHandler={onSelectBoxChangeHandler}
         inputedDate={formData.inputedDate}
       />
-      <button type="submit" disabled={!formIsValid}>
+      <button type="submit" disabled={formIsValid}>
         Submit
       </button>
     </form>
