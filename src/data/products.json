@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Main",
     "categoryDescription": "All of our dishes are made with specially picked fresh products. With them, our collaborators are able to assemble incredible evegan meals, full of flavor",
-    "categoryImageURL": "homepage-category-dishes.png",
+    "categoryImageURL": "category-dishes.png",
     "imageDescription": "a salad plate with tomato, lettuce, avocado, yellow pepper, carrots, and sause.",
     "dishes": [
       {
@@ -86,7 +86,7 @@
     "id": 2,
     "category": "Desserts",
     "categoryDescription": "Our delicious desserts are prepared taking into consideration  the moistness and fat that traditional dairy ingredients offer. An the best part - we only use vegan-friendly ingredients.",
-    "categoryImageURL": "homepage-category-desserts.png",
+    "categoryImageURL": "category-desserts.png",
     "imageDescription": "five glasses containing redberry drinks, with a red flower in the back",
     "dishes": [
       {
@@ -166,7 +166,7 @@
     "id": 3,
     "category": "Drinks",
     "categoryDescription": "Our cocktails use fun, natural ingredients to add color and flavor to your day.",
-    "categoryImageURL": "homepage-category-drinks.png",
+    "categoryImageURL": "category-drinks.png",
     "imageDescription": "pancakes with syrip and blueberries on top",
     "dishes": [
       {

@@ -9,7 +9,6 @@ export default function NavigatioBar() {
         <button>Main</button>
       </Link>
       <Link to="/desserts">
-        {" "}
         <button>Desserts</button>
       </Link>
       <Link to="/">
@@ -19,11 +18,9 @@ export default function NavigatioBar() {
         />
       </Link>
       <Link to="/drinks">
-        {" "}
         <button>Drinks</button>
       </Link>
       <Link to="/contact">
-        {" "}
         <button>Contact</button>
       </Link>
     </nav>

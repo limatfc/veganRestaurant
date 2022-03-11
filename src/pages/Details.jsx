@@ -2,13 +2,17 @@ import { useParams, useNavigate } from "react-router-dom";
 import { categoryFinder } from "../scripts/category-finder";
 import classes from "../styles/pages/ProductDetails.module.css";
 
-export default function ProductDetails() {
-  const { productCategory, dishName } = useParams();
+export default function Details() {
+  const { categoryName, dishName } = useParams();
+
   const navigate = useNavigate();
-  const foundCategory = categoryFinder(productCategory);
+
+  const foundCategory = categoryFinder(categoryName);
+
   const foundDishName = foundCategory.dishes.find(
     (item) => item.name === dishName
   );
+
   const {
     name,
     dishImageURL,
@@ -31,7 +35,7 @@ export default function ProductDetails() {
     <div className={classes.productDetailsWrapper}>
       <img
         className={classes.dishImage}
-        src={require(`../assets/images/products/${productCategory}/${dishImageURL}`)}
+        src={require(`../assets/images/products/${categoryName}/${dishImageURL}`)}
         alt={name}
       />
       <h1>{name}</h1>
@@ -46,7 +50,7 @@ export default function ProductDetails() {
         src={require(`../assets/images/products/nutritional-facts/${nutritionalFacts}`)}
         alt={`A table containing the nutritional values of the ${name} dish.`}
       />
-      <button onClick={() => navigate(`/${productCategory}`)}>Go back</button>
+      <button onClick={() => navigate(`/${categoryName}`)}>Go back</button>
     </div>
   );
 }
