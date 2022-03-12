@@ -19,13 +19,15 @@
 
 .categoryInfoWrapper {
   background-color: #3d4033;
+  margin: 0;
+  padding: 0;
 }
 
 .categoryInfoWrapper h2,
 .categoryInfoWrapper p {
-  background-color: #f1f1f1;
   padding-left: 24px;
   padding-right: 24px;
+  background-color: #f1f1f1;
 }
 
 .categoryInfoWrapper h2 {
@@ -42,9 +44,10 @@
 .categoryInfoWrapper button {
   background-color: #3d4033;
   border: none;
-  padding-left: 32%;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 16px;
 }
 
@@ -61,6 +64,7 @@
 
 @media (min-width: 750px) {
   .categoryInfoWrapper {
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: row;
   }
@@ -71,7 +75,6 @@
     justify-content: center;
     -webkit-order: 1;
     order: 1;
-    background-color: #f1f1f1;
   }
 
   .invertedInformationWrapper {
@@ -80,13 +83,13 @@
     justify-content: center;
     -webkit-order: 0;
     order: 0;
-    background-color: #f1f1f1;
   }
 
   .categoryImage {
     -webkit-order: 0;
     order: 0;
     width: 45%;
+    max-width: 500px;
   }
 
   .informationWrapper button,
