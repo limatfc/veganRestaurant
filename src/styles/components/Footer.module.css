@@ -13,7 +13,7 @@
 }
 
 .footerWrapper span {
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 3.2;
   color: #f1f1f1;
   text-align: center;
@@ -23,7 +23,7 @@
 
 .footerWrapper ul {
   list-style-type: none;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 3.2;
   color: #f1f1f1;
   justify-self: center;
@@ -33,4 +33,11 @@
   grid-column-end: span 2;
   align-self: center;
   margin: 0 auto;
+}
+
+@media (min-width: 750px) {
+  .footerWrapper ul,
+  .footerWrapper span {
+    font-size: 18px;
+  }
 }
