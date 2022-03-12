@@ -12,7 +12,7 @@ export default function Footer() {
       </ul>
       <ul>
         <li>Monday-Thursday 17:00 - 22:00</li>
-        <li>Friday- Saturdays 16:00 - 23:00</li>
+        <li>Friday- Saturday 16:00 - 23:00</li>
         <li>Sunday 17:00 - 22:00</li>
       </ul>
       <span>
