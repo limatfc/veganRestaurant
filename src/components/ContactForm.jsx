@@ -4,9 +4,9 @@ import FormSelectBox from "./FormSelectBox";
 import { useContactFormData } from "../hooks/use-contact-form-data";
 import classes from "../styles/components/ContactForm.module.css";
 
-export default function ContactForm() {
+export default function ContactForm({ toggleModal }) {
   const {
-    onEnteredValueChangeHandler,
+    onNameChangeHandler,
     onEmailChangeHandler,
     onCalendarChangeHandler,
     onSelectBoxChangeHandler,
@@ -20,6 +20,7 @@ export default function ContactForm() {
     enteredName.reset();
     enteredEmail.reset();
     inputedTime.reset();
+    toggleModal();
   }
 
   let formIsValid = false;
@@ -32,7 +33,7 @@ export default function ContactForm() {
       <FormInput
         label="First and last names"
         validateValue={(name) => name.trim() !== ""}
-        onChangeHandler={onEnteredValueChangeHandler}
+        onChangeHandler={onNameChangeHandler}
       />
       <FormInput
         label="Email address"
