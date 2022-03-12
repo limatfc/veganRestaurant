@@ -11,7 +11,7 @@ export default function FormCalendar({ onChangeHandler }) {
   return (
     <>
       <label className={classes.calendarWrapper}>
-        Choose a date
+        Select a date
         <Calendar
           className={classes.calendar}
           calendarType="US"

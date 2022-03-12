@@ -28,7 +28,7 @@ export default function FormSelectBox({ inputedDate, onChangeHandler }) {
   }
   return (
     <label className={classes.selectBoxWrapper}>
-      Choose a time
+      Select a time
       <select
         onChange={valueChangeHandler}
         onBlur={inputBlurHandler}
@@ -36,7 +36,7 @@ export default function FormSelectBox({ inputedDate, onChangeHandler }) {
         value={value}
         className={hasError ? classes.errorInput : null}
       >
-        <option value="">--Please choose an option--</option>
+        <option value="">--Select an option--</option>
         <option value="17" disabled={!availableTime}>
           17:00
         </option>
