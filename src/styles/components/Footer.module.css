@@ -1,15 +1,15 @@
 .footerWrapper {
   background-color: #98a07f;
   padding-top: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footerWrapper img {
   width: 40px;
   padding: 24px;
+  grid-column-end: span 2;
 }
 
 .footerWrapper span {
@@ -17,5 +17,20 @@
   letter-spacing: 3.2;
   color: #f1f1f1;
   text-align: center;
-  padding-bottom: 24px;
+  grid-column-end: span 2;
+  align-self: center;
+}
+
+.footerWrapper ul {
+  list-style-type: none;
+  font-size: 18px;
+  letter-spacing: 3.2;
+  color: #f1f1f1;
+  justify-self: center;
+}
+
+.footerWrapper div {
+  grid-column-end: span 2;
+  align-self: center;
+  margin: 0 auto;
 }

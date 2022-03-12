@@ -52,7 +52,9 @@
   height: 60px;
   background-color: #98a07f;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
   border: none;
 }
 
