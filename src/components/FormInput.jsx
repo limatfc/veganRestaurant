@@ -1,12 +1,7 @@
 import { useEffect } from "react";
 import { useFormValidation } from "../hooks/use-form-validation";
 
-export default function FormInput({
-  label,
-  type,
-  validateValue,
-  onChangeHandler,
-}) {
+export default function FormInput({ label, validateValue, onChangeHandler }) {
   const {
     valueChangeHandler,
     inputBlurHandler,
@@ -30,7 +25,6 @@ export default function FormInput({
       <input
         onChange={valueChangeHandler}
         onBlur={inputBlurHandler}
-        type={type}
         value={value}
       />
       {hasError && <p>Sorry, {label.toLowerCase()} must be completed.</p>}
