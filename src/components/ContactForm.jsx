@@ -4,7 +4,7 @@ import FormSelectBox from "./FormSelectBox";
 import { useContactFormData } from "../hooks/use-contact-form-data";
 import classes from "../styles/components/ContactForm.module.css";
 
-export default function ContactForm() {
+export default function ContactForm({ toggleModal }) {
   const {
     onNameChangeHandler,
     onEmailChangeHandler,
@@ -20,6 +20,7 @@ export default function ContactForm() {
     enteredName.reset();
     enteredEmail.reset();
     inputedTime.reset();
+    toggleModal();
   }
 
   let formIsValid = false;

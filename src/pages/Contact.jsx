@@ -1,9 +1,17 @@
+import { useState } from "react";
 import ContactForm from "../components/ContactForm";
+import Modal from "../components/Modal";
 import ownerImage from "../assets/images/contact-owner.png";
 import map from "../assets/images/contact-map.png";
 import classes from "../styles/pages/Contact.module.css";
 
 export default function Contact() {
+  const [showModal, setShowModal] = useState(false);
+
+  function toggleModal() {
+    setShowModal(!showModal);
+  }
+
   return (
     <div className={classes.contactWrapper}>
       <img
@@ -19,7 +27,7 @@ export default function Contact() {
       </ul>
       <hr />
       <h2 className={classes.bookATableTitle}>Book a table</h2>
-      <ContactForm />
+      <ContactForm toggleModal={toggleModal} />
       <hr />
       <h2>Address</h2>
       <ul>
@@ -32,6 +40,7 @@ export default function Contact() {
         src={map}
         alt="The restaurant is located in front of the Handelsbanken Solna Centrum"
       />
+      <Modal showModal={showModal} toggleModal={toggleModal} />
     </div>
   );
 }
