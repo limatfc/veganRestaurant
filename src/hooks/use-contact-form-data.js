@@ -8,7 +8,7 @@ export function useContactFormData() {
     inputedTime: {},
   });
 
-  const onEnteredValueChangeHandler = useCallback((enteredValue) => {
+  const onNameChangeHandler = useCallback((enteredValue) => {
     setFormData((prev) => ({ ...prev, enteredName: enteredValue }));
   }, []);
 
@@ -25,7 +25,7 @@ export function useContactFormData() {
   }, []);
 
   return {
-    onEnteredValueChangeHandler,
+    onNameChangeHandler,
     onEmailChangeHandler,
     onCalendarChangeHandler,
     onSelectBoxChangeHandler,

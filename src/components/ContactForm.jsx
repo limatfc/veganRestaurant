@@ -6,7 +6,7 @@ import classes from "../styles/components/ContactForm.module.css";
 
 export default function ContactForm() {
   const {
-    onEnteredValueChangeHandler,
+    onNameChangeHandler,
     onEmailChangeHandler,
     onCalendarChangeHandler,
     onSelectBoxChangeHandler,
@@ -32,7 +32,7 @@ export default function ContactForm() {
       <FormInput
         label="First and last names"
         validateValue={(name) => name.trim() !== ""}
-        onChangeHandler={onEnteredValueChangeHandler}
+        onChangeHandler={onNameChangeHandler}
       />
       <FormInput
         label="Email address"
