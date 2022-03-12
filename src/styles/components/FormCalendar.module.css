@@ -1,0 +1,23 @@
+.calendarWrapper {
+  font-size: 18px;
+  letter-spacing: 3.2;
+  color: #a4693d;
+  max-width: 327px;
+  padding: 8px;
+}
+
+.calendar {
+  color: #a4693d;
+  font-size: 18px;
+  letter-spacing: 3.2;
+  color: #a4693d;
+  max-width: 327px;
+  margin-top: 2px;
+  border-color: #3d4033;
+  border-width: 2px;
+}
+
+.calendar button,
+.calendar span {
+  color: #a4693d;
+}

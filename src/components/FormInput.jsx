@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useFormValidation } from "../hooks/use-form-validation";
+import classes from "../styles/components/FormInput.module.css";
 
 export default function FormInput({ label, validateValue, onChangeHandler }) {
   const {
@@ -20,14 +21,15 @@ export default function FormInput({ label, validateValue, onChangeHandler }) {
   }, [value, onChangeHandler, reset, isValid]);
 
   return (
-    <label>
+    <label className={classes.formInputWrapper}>
       {label}
       <input
+        className={hasError ? classes.errorInput : null}
         onChange={valueChangeHandler}
         onBlur={inputBlurHandler}
         value={value}
       />
-      {hasError && <p>Sorry, {label.toLowerCase()} must be completed.</p>}
+      <p>{hasError && `${label} must be completed.`}</p>
     </label>
   );
 }

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import classes from "../styles/components/ProductCategoryDishes.module.css";
+import classes from "../styles/components/CategoryDishes.module.css";
 
 export default function CategoryDishes({ dishes, productCategoryRoute }) {
   const navigate = useNavigate();

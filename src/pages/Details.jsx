@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { DetailsIngredients } from "../components/DetailsIngredients";
 import { categoryFinder } from "../scripts/category-finder";
-import classes from "../styles/pages/ProductDetails.module.css";
+import classes from "../styles/pages/Details.module.css";
 
 export default function Details() {
   const { categoryName, dishName } = useParams();
