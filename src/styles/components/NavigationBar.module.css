@@ -21,3 +21,24 @@
   padding: 0;
   text-decoration: none;
 }
+
+@media (min-width: 750px) {
+  .navigationBarWrapper {
+    height: 120px;
+  }
+  .navigationBarWrapper img {
+    height: 110px;
+  }
+  .logoWrapper {
+    -webkit-order: 0;
+    order: 0;
+  }
+  .link {
+    font-size: 25px;
+    -webkit-order: 1;
+    order: 1;
+  }
+  .mainMargin {
+    margin-left: 30%;
+  }
+}
