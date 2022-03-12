@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { categoryFinder } from "../scripts/category-finder";
 import Error from "../components/Error";
 import CategoryDishes from "../components/CategoryDishes";
-import classes from "../styles/pages/Categories.module.css";
+import classes from "../styles/pages/Category.module.css";
 
-export default function Categories() {
+export default function Category() {
   const { categoryName } = useParams();
   const productCategoryRoute = categoryName.toLowerCase();
 
@@ -30,7 +30,7 @@ export default function Categories() {
         <h1 className={classes.title}>{category}</h1>
       </div>
       <p className={classes.categoryDescription}>{categoryDescription}</p>
-      <section>
+      <section className={classes.categoryDishesWrapper}>
         <CategoryDishes
           dishes={dishes}
           productCategoryRoute={productCategoryRoute}

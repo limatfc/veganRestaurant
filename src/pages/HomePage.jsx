@@ -11,22 +11,30 @@ export default function HomePage() {
   }
 
   const productCategoriesInfo = productsData.map((item) => (
-    <div key={item.id} className={classes.productCategoryInfoWrapper}>
-      <h2>{item.category}</h2>
-      <p>{item.categoryDescription}</p>
+    <div key={item.id} className={classes.categoryInfoWrapper}>
+      <div
+        className={
+          item.category !== "Desserts"
+            ? classes.informationWrapper
+            : classes.invertedInformationWrapper
+        }
+      >
+        <h2>{item.category}</h2>
+        <p>{item.categoryDescription}</p>
+        <button onClick={() => onClickHandler(item)}>
+          <img
+            className={classes.icon}
+            src={buttonIcon}
+            alt="a white outline of a plant in a green background"
+          />
+          View menu
+        </button>
+      </div>
       <img
-        className={classes.productCategoryInfoImage}
+        className={classes.categoryImage}
         src={require(`../assets/images/${item.categoryImageURL}`)}
         alt={item.imageDescription}
       />
-      <button onClick={() => onClickHandler(item)}>
-        <img
-          className={classes.icon}
-          src={buttonIcon}
-          alt="a white outline of a plant in a green background"
-        />
-        View menu
-      </button>
     </div>
   ));
 

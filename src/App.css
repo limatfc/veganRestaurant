@@ -52,3 +52,21 @@ h3,
 p {
   color: #a4693d;
 }
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  button {
+    font-size: 25px;
+  }
+}

@@ -30,3 +30,12 @@
 .formInputWrapper .errorInput {
   border-color: #ce2029;
 }
+
+@media (min-width: 750px) {
+  .formInputWrapper {
+    font-size: 25px;
+  }
+  .formInputWrapper p {
+    font-size: 18px;
+  }
+}

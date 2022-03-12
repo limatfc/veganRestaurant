@@ -8,13 +8,14 @@
 }
 
 .dishesWrapper h3 {
-  padding-top: 10%;
+  align-self: center;
   padding-left: 8px;
 }
 .dishesWrapper p {
   padding: 8px;
   padding-right: 16px;
   text-align: justify;
+  align-self: start;
 }
 
 .dishImage {
@@ -22,4 +23,23 @@
   height: 100%;
   grid-column-start: 2;
   grid-row: 1 / span 2;
+}
+
+@media (min-width: 750px) {
+  .dishesWrapper {
+    grid-template-columns: 4fr 8fr;
+  }
+
+  .dishImage {
+    max-width: 250px;
+    grid-column-start: 1;
+  }
+  .dishesWrapper h3 {
+    align-self: end;
+
+    padding-right: 16px;
+  }
+  .dishesWrapper p {
+    align-self: start;
+  }
 }
