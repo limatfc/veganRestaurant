@@ -8,9 +8,14 @@
 .submit {
   width: 290px;
   height: 60px;
-  background-color: #a4693d;
+  background-color: #98a07f;
   display: block;
   margin: 8px auto;
   margin-bottom: 24px;
   border: none;
+}
+
+.submit:disabled {
+  background-color: #3d4033;
+  color: grey;
 }

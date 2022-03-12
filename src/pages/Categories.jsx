@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { categoryFinder } from "../scripts/category-finder";
 import Error from "../components/Error";
 import CategoryDishes from "../components/CategoryDishes";
-import classes from "../styles/pages/ProductCategories.module.css";
+import classes from "../styles/pages/Categories.module.css";
 
 export default function Categories() {
   const { categoryName } = useParams();

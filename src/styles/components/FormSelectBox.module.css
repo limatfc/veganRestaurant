@@ -6,11 +6,11 @@
   letter-spacing: 3.2;
   color: #a4693d;
   max-width: 327px;
-  padding: 8px;
+  padding: 0px 8px;
 }
 
 .selectBoxWrapper select {
-  margin-top: 8px;
+  margin-top: 2px;
   height: 40px;
   font-size: 18px;
   color: #a4693d;
@@ -27,6 +27,7 @@
 
 .selectBoxWrapper p {
   color: #ce2029;
+  font-size: 15px;
 }
 
 .selectBoxWrapper .errorInput {
