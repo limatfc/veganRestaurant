@@ -82,13 +82,11 @@
   }
   .productDetailsWrapper li {
     font-size: 25px;
-    letter-spacing: 3.2;
-    color: #a4693d;
     line-height: 35px;
   }
   .productDetailsWrapper button {
     max-width: 700px;
-    height: 100px;
+    height: 70px;
     margin-top: 48px;
     margin-bottom: 48px;
   }

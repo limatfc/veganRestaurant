@@ -1,7 +1,7 @@
-.selectBoxWrapper {
+.selectBoxWrapper,
+option {
   display: flex;
   flex-direction: column;
-
   font-size: 18px;
   letter-spacing: 3.2;
   color: #a4693d;
@@ -32,4 +32,14 @@
 
 .selectBoxWrapper .errorInput {
   border-color: #ce2029;
+}
+
+@media (min-width: 750px) {
+  .selectBoxWrapper,
+  option {
+    font-size: 25px;
+  }
+  .selectBoxWrapper p {
+    font-size: 18px;
+  }
 }
