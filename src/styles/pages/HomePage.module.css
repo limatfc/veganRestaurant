@@ -52,6 +52,8 @@
 }
 
 .categoryImage {
+  display: block;
+  margin: 0 auto;
   width: 320px;
   background-color: #3d4033;
   padding: 24px;
@@ -95,7 +97,8 @@
     -webkit-order: 0;
     order: 0;
     width: 45%;
-    max-width: 500px;
+    max-width: 600px;
+    margin: 0 0;
   }
 
   .informationWrapper button,
