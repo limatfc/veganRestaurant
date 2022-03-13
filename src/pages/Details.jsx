@@ -1,18 +1,22 @@
 import { useParams, useNavigate } from "react-router-dom";
+import Error from "../components/Error";
 import { DetailsIngredients } from "../components/DetailsIngredients";
 import { categoryFinder } from "../scripts/category-finder";
 import classes from "../styles/pages/Details.module.css";
 
 export default function Details() {
   const { categoryName, dishName } = useParams();
-
   const navigate = useNavigate();
 
   const foundCategory = categoryFinder(categoryName);
 
+  if (!foundCategory) return <Error />;
+
   const foundDishName = foundCategory.dishes.find(
     (item) => item.name === dishName
   );
+
+  if (!foundDishName) return <Error />;
 
   const {
     name,
