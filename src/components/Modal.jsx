@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import ContactModal from "./ContactModal";
+import ContactModal from "../pages/ContactModal";
 
 export default function Modal({ showModal, toggleModal }) {
   if (!showModal) return null;

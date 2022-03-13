@@ -1,6 +1,6 @@
 import logo from "../assets/icons/logo.png";
 import closeIcon from "../assets/icons/modal-close-icon.png";
-import classes from "../styles/components/ContactModal.module.css";
+import classes from "../styles/pages/ContactModal.module.css";
 
 export default function ContactModal({ toggleModal }) {
   return (

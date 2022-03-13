@@ -34,13 +34,11 @@ export default function ContactForm({ toggleModal }) {
         label="First and last names"
         validateValue={(name) => name.trim() !== ""}
         onChangeHandler={onNameChangeHandler}
-        placeholder="John Doe"
       />
       <FormInput
         label="Email address"
         validateValue={(email) => email.includes("@")}
         onChangeHandler={onEmailChangeHandler}
-        placeholder="email@email.com"
       />
       <FormCalendar onChangeHandler={onCalendarChangeHandler} />
       <FormSelectBox
