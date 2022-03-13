@@ -2,7 +2,12 @@ import { useEffect } from "react";
 import { useFormValidation } from "../hooks/use-form-validation";
 import classes from "../styles/components/FormInput.module.css";
 
-export default function FormInput({ label, validateValue, onChangeHandler }) {
+export default function FormInput({
+  label,
+  validateValue,
+  onChangeHandler,
+  placeholder,
+}) {
   const {
     valueChangeHandler,
     inputBlurHandler,
@@ -28,6 +33,7 @@ export default function FormInput({ label, validateValue, onChangeHandler }) {
         onChange={valueChangeHandler}
         onBlur={inputBlurHandler}
         value={value}
+        placeholder={placeholder}
       />
       <p>{hasError && `${label} must be completed.`}</p>
     </label>

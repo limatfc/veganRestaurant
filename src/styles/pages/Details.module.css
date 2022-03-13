@@ -58,6 +58,11 @@
   border: none;
 }
 
+.productDetailsWrapper button:hover {
+  color: #3d4033;
+  cursor: pointer;
+}
+
 @media (min-width: 750px) {
   .productDetailsWrapper h1,
   .productDetailsWrapper p,

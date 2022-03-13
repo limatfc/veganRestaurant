@@ -26,7 +26,11 @@
   border-color: #3d4033;
   box-sizing: border-box;
 }
-
+.formInputWrapper input::placeholder {
+  color: #a4693d;
+  opacity: 0.5;
+  padding-left: 3px;
+}
 .formInputWrapper .errorInput {
   border-color: #ce2029;
 }
