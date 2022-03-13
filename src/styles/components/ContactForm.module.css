@@ -14,10 +14,15 @@
   margin-bottom: 24px;
   border: none;
 }
+.submit:hover {
+  color: #3d4033;
+  cursor: pointer;
+}
 
 .submit:disabled {
-  background-color: #3d4033;
-  color: grey;
+  background-color: #c6c6c4;
+  color: #f1f1f1;
+  cursor: default;
 }
 
 @media (min-width: 750px) {

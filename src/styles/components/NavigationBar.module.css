@@ -21,6 +21,10 @@
   padding: 0;
   text-decoration: none;
 }
+.link:hover {
+  cursor: pointer;
+  color: #3d4033;
+}
 
 @media (min-width: 750px) {
   .navigationBarWrapper {

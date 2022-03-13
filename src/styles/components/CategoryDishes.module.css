@@ -6,6 +6,15 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
+.dishesWrapper:hover {
+  cursor: pointer;
+  background-color: #98a07f;
+}
+
+.dishesWrapper:hover p,
+.dishesWrapper:hover h3 {
+  color: #3d4033;
+}
 
 .dishesWrapper h3 {
   align-self: center;
