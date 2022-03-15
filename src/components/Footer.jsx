@@ -2,6 +2,8 @@ import instagramIcon from "../assets/icons/footer-instagram-icon.png";
 import facebookIcon from "../assets/icons/footer-facebook-icon.png";
 import classes from "../styles/components/Footer.module.css";
 
+// DRY -1
+// Those social media links can be mini components
 export default function Footer() {
   return (
     <footer className={classes.footerWrapper}>

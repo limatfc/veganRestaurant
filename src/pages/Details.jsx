@@ -8,14 +8,11 @@ export default function Details() {
   const { categoryName, dishName } = useParams();
   const navigate = useNavigate();
 
+  // Minor detail, try to put the if withouth an extra line, to know that its related to foundCategory
   const foundCategory = categoryFinder(categoryName);
-
   if (!foundCategory) return <Error />;
 
-  const foundDishName = foundCategory.dishes.find(
-    (item) => item.name === dishName
-  );
-
+  const foundDishName = dishFinder(foundCategory); // <= suggested refactor to make it one line like foundCategory
   if (!foundDishName) return <Error />;
 
   const {
@@ -39,6 +36,7 @@ export default function Details() {
       <DetailsIngredients ingredients={ingredients} />
       <hr />
       <h2>Nutritional Facts</h2>
+      {/* Requirement -1, this should be a real HTML table */}
       <img
         className={classes.nutritionalTableImage}
         src={require(`../assets/images/products/nutritional-facts/${nutritionalFacts}`)}

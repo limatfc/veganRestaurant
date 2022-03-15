@@ -8,6 +8,8 @@ export default function FormCalendar({ onChangeHandler }) {
     const clickedDay = stringifiedEvent.slice(0, 15);
     onChangeHandler(clickedDay);
   }
+
+  // Tags -1, we spoke about this, return the label directly just like you did on FormInput and FormSelectBox
   return (
     <>
       <label className={classes.calendarWrapper}>

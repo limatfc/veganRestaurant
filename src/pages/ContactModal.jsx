@@ -2,6 +2,9 @@ import logo from "../assets/icons/logo.png";
 import closeIcon from "../assets/icons/modal-close-icon.png";
 import classes from "../styles/pages/ContactModal.module.css";
 
+// This is a new -1 category
+// "Component in the wrong folder"
+// Either create a little folder called pages/contact to put the modal or put it on components
 export default function ContactModal({ toggleModal }) {
   return (
     <div>

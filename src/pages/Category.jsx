@@ -9,6 +9,7 @@ export default function Category() {
   const productCategoryRoute = categoryName.toLowerCase();
 
   const foundCategory = categoryFinder(productCategoryRoute);
+  // good safeguard +1
   if (!foundCategory) return <Error />;
 
   const {
@@ -18,6 +19,11 @@ export default function Category() {
     dishes,
     imageDescription,
   } = foundCategory;
+
+  /**
+   * Note: It feels weird the CategoryDishes do the map function. CategoryDishes should be CategoryDish (singular)
+   * And you do the for loop over here in the parent.
+   */
 
   return (
     <div>

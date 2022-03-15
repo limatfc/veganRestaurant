@@ -14,6 +14,10 @@ export default function Contact() {
 
   return (
     <div className={classes.contactWrapper}>
+      {/* Time to be annoying */}
+      {/* Why "as", it means that she is not the owner */}
+      {/* Let's pretend that she is the owner and write it as... */}
+      {/* alt="The picture of Jennifer Anniston, the famoust actress of friend, as the CEO of the restaurant!" */}
       <img
         className={classes.ownerImage}
         src={ownerImage}

@@ -26,6 +26,7 @@ export default function FormInput({ label, validateValue, onChangeHandler }) {
     ? (placeholderValue = "John Doe")
     : (placeholderValue = "email@email.com");
 
+    // 
   return (
     <label className={classes.formInputWrapper}>
       {label}

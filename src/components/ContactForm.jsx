@@ -28,6 +28,7 @@ export default function ContactForm({ toggleModal }) {
     formIsValid = true;
   }
 
+  // Good
   return (
     <form className={classes.formWrapper} onSubmit={onSubmitHandler}>
       <FormInput

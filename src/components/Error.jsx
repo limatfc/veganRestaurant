@@ -1,5 +1,7 @@
 import classes from "../styles/components/Error.module.css";
 import image from "../assets/images/error-try-again.jpg";
+
+// great
 export default function Error() {
   return (
     <section>

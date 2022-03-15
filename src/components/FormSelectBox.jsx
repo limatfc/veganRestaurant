@@ -26,6 +26,8 @@ export default function FormSelectBox({ inputedDate, onChangeHandler }) {
   if (chosenDay === "Fri" || chosenDay === "Sat") {
     availableTime = true;
   }
+
+  // Here, you can have the time slots in a json because otherwise it becomes too long
   return (
     <label className={classes.selectBoxWrapper}>
       Select a time
