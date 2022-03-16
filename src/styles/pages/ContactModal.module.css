@@ -10,8 +10,9 @@
 
 .modalWrapper {
   position: fixed;
-  left: 5%;
-  top: 25%;
+  left: 50%;
+  top: 2%;
+  transform: translate(-50%, 50%);
   z-index: 20;
   height: 40%;
   width: 90%;
@@ -57,6 +58,5 @@
   .modalWrapper {
     width: 80%;
     max-width: 800px;
-    left: 10%;
   }
 }

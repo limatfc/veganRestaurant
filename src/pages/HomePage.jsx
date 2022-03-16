@@ -44,7 +44,9 @@ export default function HomePage() {
         <h1>Oh My Veggies!</h1>
         <h1>Vegetables you can count on</h1>
       </section>
-      {productCategoriesInfo}
+      <section className={classes.allCategoryInfoWrapper}>
+        {productCategoriesInfo}
+      </section>
     </div>
   );
 }
